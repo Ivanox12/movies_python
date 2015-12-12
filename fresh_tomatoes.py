@@ -55,9 +55,11 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
-        .black{
-            background-color: #000000;
 
+        /* This is a class that affect the footer */
+        
+        .black{
+            background-color: #000000; 
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -118,11 +120,13 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+    <!--Here the footer section starts -->
     <footer class="footer black">
       <div class="container">
         <p class="text-muted">Contact me @Ivanquevedo</p>
       </div>
     </footer>
+    <!--Here the footer section ends -->
   </body>
 </html>
 '''
